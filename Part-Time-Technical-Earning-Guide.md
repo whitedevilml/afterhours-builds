@@ -170,8 +170,8 @@ After 10+ sessions, raise rates and collect **testimonials**.
 **Day 1–2 — Employer & portfolio**
 
 1. Re-read your **employment contract** / HR policy: confirm you may take **external freelance** work (non-competing, no employer IP).
-2. Open the folder **`portfolio/`** in this project: edit **`index.html`** — contact email is **lokeshmlaute@gmail.com**; replace remaining placeholders (`YOUR_USERNAME`, `YOUR_PROFILE`, project titles, skills, About text as needed).
-3. Open **`index.html`** in your browser (double-click or use a local server — see **`portfolio/DEPLOY.md`**).
+2. Open the folder **`docs/`** in this project: edit **`index.html`** — contact email is **lokeshmlaute@gmail.com**; GitHub username **whitedevilml** is set; adjust LinkedIn URL if yours differs, then update project copy as needed.
+3. Open **`docs/index.html`** in your browser (double-click or use a local server — see **`docs/DEPLOY.md`**).
 4. Create a **new public GitHub repo**, push **`index.html`** + **`styles.css`** to the **root** (or use the repo only for the site). Turn on **GitHub Pages** and get a live URL.
 
 **Day 3–4 — GitHub “proof”**
@@ -190,7 +190,7 @@ After 10+ sessions, raise rates and collect **testimonials**.
 2. Send **5 tailored proposals** (not copy-paste): one paragraph on their problem, one on your approach, link to portfolio + relevant repo.
 3. **Admin evening (once):** save a doc with **proposal templates** you refine after each application.
 
-**Portfolio folder:** `portfolio/index.html`, `portfolio/styles.css`, deploy steps in `portfolio/DEPLOY.md`.
+**Portfolio folder:** `docs/index.html`, `docs/styles.css`, deploy steps in `docs/DEPLOY.md`.
 
 ---
 
