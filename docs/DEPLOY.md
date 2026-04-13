@@ -8,25 +8,25 @@ The site files live in **`docs/`** (`index.html`, `styles.css`) so this repo can
 
 1. Sign in at [github.com](https://github.com).
 2. Click **+** → **New repository**.
-3. Name it **`PartTimeEarning`** (or another name; the live URL will include this repo name).
+3. Name it **`afterhours-builds`** (the live URL will include this repo name).
 4. Leave it **Public**, **do not** add a README (you already have files locally).
 5. Click **Create repository**.
 
 ## Push from your computer
 
-In **Command Prompt** or **PowerShell**, from the **PartTimeEarning** folder (the one that contains `docs/` and `Part-Time-Technical-Earning-Guide.md`):
+In **Command Prompt** or **PowerShell**, open your project folder (the one that contains `docs/` and `Part-Time-Technical-Earning-Guide.md`). If you still use the old folder name `PartTimeEarning`, use that in `cd` until you rename it (close Cursor/Explorer first if Windows says the folder is in use).
 
 ```bat
-cd "c:\Users\prlom\OneDrive - IRI\Desktop\PartTimeEarning"
+cd "c:\Users\prlom\OneDrive - IRI\Desktop\afterhours-builds"
 git branch -M main
-git remote add origin https://github.com/whitedevilml/PartTimeEarning.git
+git remote add origin https://github.com/whitedevilml/afterhours-builds.git
 git push -u origin main
 ```
 
 If `remote origin already exists`, use:
 
 ```bat
-git remote set-url origin https://github.com/whitedevilml/PartTimeEarning.git
+git remote set-url origin https://github.com/whitedevilml/afterhours-builds.git
 git push -u origin main
 ```
 
@@ -39,9 +39,7 @@ GitHub will ask you to sign in. Use a **[Personal Access Token](https://github.c
 3. **Branch:** `main`, folder **`/docs`**, then **Save**.
 4. After 1–3 minutes, the site will be at:
 
-   **`https://whitedevilml.github.io/PartTimeEarning/`**
-
-   (If you used a different repo name, replace `PartTimeEarning` in that URL.)
+   **`https://whitedevilml.github.io/afterhours-builds/`**
 
 If you see **404**, wait a few minutes or confirm `docs/index.html` exists on the `main` branch.
 
