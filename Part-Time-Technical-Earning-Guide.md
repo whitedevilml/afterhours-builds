@@ -190,7 +190,7 @@ After 10+ sessions, raise rates and collect **testimonials**.
 2. Send **5 tailored proposals** (not copy-paste): one paragraph on their problem, one on your approach, link to portfolio + relevant repo.
 3. **Admin evening (once):** save a doc with **proposal templates** you refine after each application.
 
-**Portfolio folder:** `docs/index.html`, `docs/styles.css`, deploy steps in `docs/DEPLOY.md`.
+**Portfolio folder:** `docs/index.html`, `docs/styles.css`, deploy steps in `docs/DEPLOY.md`. **Sample projects:** `projects/taskboard`, `projects/aws-static-site`.
 
 ---
 

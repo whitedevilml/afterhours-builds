@@ -11,3 +11,7 @@ Desktop.ini
 
 # Logs
 *.log
+
+# Node (portfolio projects)
+projects/**/node_modules/
+projects/**/data/tasks.json

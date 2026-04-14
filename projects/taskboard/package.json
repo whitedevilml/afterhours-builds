@@ -1,0 +1,17 @@
+{
+  "name": "taskboard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Small full-stack task list: Express API, vanilla UI, JSON persistence, Docker, CI.",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test tests/"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

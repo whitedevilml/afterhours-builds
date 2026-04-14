@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - taskdata:/app/data
+    environment:
+      - NODE_ENV=production
+
+volumes:
+  taskdata:

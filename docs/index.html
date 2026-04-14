@@ -77,32 +77,32 @@
     <section id="projects" class="wrap">
       <h2>Selected projects</h2>
       <p class="prose" style="margin-bottom: 1.25rem;">
-        Link the same repos you <strong>pin on GitHub</strong>. Ideal case: app + infra README (how to run locally, how deployment works), screenshots or live demo.
+        Each project has a <strong>README</strong> with run instructions. Pin these folders on GitHub and add a <strong>live URL</strong> when you deploy.
       </p>
       <div class="project-grid">
         <article class="card">
-          <span class="meta">Full-stack · Production</span>
-          <h3>Web app — build to deploy</h3>
-          <p>Replace: e.g. customer-facing site or dashboard—frontend, APIs, database, and pipeline to production. Add one metric or outcome if you can share it.</p>
+          <span class="meta">Full-stack · Docker</span>
+          <h3>Taskboard</h3>
+          <p>Express REST API, vanilla UI, JSON persistence, Docker Compose, automated tests, and CI that runs tests and builds the image on every push.</p>
           <div class="card-links">
-            <a href="https://github.com/whitedevilml" target="_blank" rel="noopener noreferrer">Code</a>
-            <a href="#" target="_blank" rel="noopener noreferrer">Live</a>
+            <a href="https://github.com/whitedevilml/afterhours-builds/tree/main/projects/taskboard" target="_blank" rel="noopener noreferrer">Code</a>
+            <a href="#" title="Add your hosted URL after you deploy (e.g. Fly.io, Railway)">Live</a>
           </div>
         </article>
         <article class="card">
-          <span class="meta">DevOps · Automation</span>
-          <h3>Pipeline / platform work</h3>
-          <p>Replace: CI/CD, IaC, or release automation you own—what it improved (lead time, reliability, repeatability).</p>
+          <span class="meta">IaC · AWS</span>
+          <h3>Static site on S3</h3>
+          <p>Terraform module that provisions an S3 static website bucket (Mumbai region default). Practice plan/apply safely before using in production.</p>
           <div class="card-links">
-            <a href="https://github.com/whitedevilml" target="_blank" rel="noopener noreferrer">Code</a>
+            <a href="https://github.com/whitedevilml/afterhours-builds/tree/main/projects/aws-static-site" target="_blank" rel="noopener noreferrer">Code</a>
           </div>
         </article>
         <article class="card">
-          <span class="meta">Website · Hosting</span>
-          <h3>Site or service in prod</h3>
-          <p>Replace: marketing site, API, or internal tool—emphasise how you deployed and operate it (environment, DNS, SSL, monitoring).</p>
+          <span class="meta">CI/CD</span>
+          <h3>GitHub Actions pipeline</h3>
+          <p>Workflow that installs dependencies, runs tests, and verifies the Docker build for Taskboard—typical path from commit to release artifact.</p>
           <div class="card-links">
-            <a href="https://github.com/whitedevilml" target="_blank" rel="noopener noreferrer">Code</a>
+            <a href="https://github.com/whitedevilml/afterhours-builds/tree/main/.github/workflows" target="_blank" rel="noopener noreferrer">Workflows</a>
           </div>
         </article>
       </div>
